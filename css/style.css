@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+/* NAV */
+
+nav {
+    background-color: #000000
+}
+
+a {
+text-decoration: none;
+
+}
+
+/*-----Vista Movil-----*/
+
+
+/*--Header--*/
+
+.header {
+    display: block;
+}
+
+/*--navbar--*/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.navbarprincipal {
+    font-size: 24px;
+    color: #34b17d;
+}
+
+/*-nav-ul-*/
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* -logonav- */
+
+.logonav {
+    margin: 0;
+    padding: 0;
+}
+
+/* -MAIN- */
+
+main {
+    margin-top: 60px;
+    background-color: #2a333bcc
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulariodos {
+    display: flex;
+    flex-direction: column;
+}
+
+.botondeconsulta {
+    width: 80vw;
+}
+
+.buttomcomprar {
+    width: 45vw;
+}
+
+.h2-link {
+    color:#3ad375cc
+}
+
+/*img principal*/
+
+.imgclass {
+width: 90vw;
+height: 40vh;
+margin: 3vw;
+}
+
+.imgclass2 {
+width: 90vw;
+height: 40vh;
+}
+
+.imgclass3 {
+width: 90vw;
+height: 40vh;
+}
+
+
+p {
+    text-align: justify;
+    width: 80vw;
+    color: white;
+}
+
+/* -FOOTER- */
+
+.footer-principal {
+    background-color: #191919;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-link {
+    font-size: 16px;
+    color: #34b17d;
+    text-decoration: none;
+    text-align: end;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+.pdelfooter {
+    color: #34b17d;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* HTML-INFORMACION */
+
+.h2informacion {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: #3ad375cc;
+    margin-top: 10px;
+}
+
+/* -----------VISTA DESKTOP---------- */
+
+
+@media (min-width: 769px) {
+
+    .imgclass {
+        width: 60vw;
+        height: 30vw;
+    }
+
+    .imgclass3 {
+        width: 60vw;
+        height: 30vw;
+    }
+
+    .pdelmain {
+        font-size: 23px;
+        color: rgb(255, 255, 255);
+    }
+
+    .pdelmain1 {
+        font-size: 23px;
+        color: rgb(255, 255, 255);
+        padding-top: 20px;
+    }
+
+    .footer-link {
+        font-size: 26px;
+        color: #34b17d;
+    }
+    
+    .pdelfooter {
+        font-size: 26px;
+        color: #34b17d;
+    }
+
+    /* HTML-INFORMACION */
+
+    .h2informacion {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    color: #3ad375cc;
+    margin-top: 10px;
+}
+
+    .pdelmaininfo {
+    font-size: 23px;
+    color: white;
+
+}
+
+.botondeconsulta {
+    width: 350px;
+    display: flex;
+    align-content: start;
+}
+
+.section-preguntas {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 40px 40px 200px repeat(2, 320px);
+    overflow: unset;
+
+}
+
+.h1-informacion {
+    grid-column: 1/ 3;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+}
+
+.boton-consulta {
+    grid-column: 1/ 3;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+.pregunta-1 {
+    grid-column: 1/ 3;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+}
+
+.pregunta-2 {
+
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pregunta-2 .pdelmaininfo {
+    height: 100px;
+    width: 45vw;
+}
+
+.pregunta-3 {
+
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pregunta-3 .pdelmaininfo {
+    height: 100px;
+    width: 45vw;
+
+}
+.pregunta-4 {
+
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pregunta-4 .pdelmaininfo {
+    height: 100px;
+    width: 45vw;
+
+
+}
+
+.pregunta-5 {
+
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pregunta-5 .pdelmaininfo {
+    height: 100px;
+    width: 45vw;
+
+}
+
+}
