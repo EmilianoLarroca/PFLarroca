@@ -1,35 +1,30 @@
 /* -FOOTER- */
 
-.footer-principal {
+footer {
     background-color: #191919;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
-
-.footer-link {
-    font-size: 16px;
-    color: #34b17d;
-    text-decoration: none;
-}
-
-.footer-nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 15px;
-}
-
-.pdelfooter {
-    color: #34b17d;
-    text-align: center;
-    font-size: 16px;
+    div {
+        font-size: 16px;
+        color: #34b17d;
+        text-decoration: none;
+        a {
+            font-size: 16px;
+            color: #34b17d;
+            text-decoration: none;
+        }
+        p {
+            color: #34b17d;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
 }
 
 /*----------------------- VISTA DESKTOP -----------------------*/
-
 @media (min-width: 769px) {
     .footer-link {
         font-size: 26px;
