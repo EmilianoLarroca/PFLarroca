@@ -1,0 +1,60 @@
+/*----------------------- VISTA MOBILE -----------------------*/
+
+.formulariodos {
+    display: flex;
+    flex-direction: column;
+
+    .botoncontacto {
+        width: 35vw;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .formulario {
+        @include flex(column,center,center);
+        font-size: 20px;
+        color: white;
+        
+        .formulario1 {
+            width: 58vw;
+        }
+    
+        .formulario3 {
+            width: 59vw;
+            height: 55vh;
+        }
+    }
+}
+
+/*----------------------- VISTA TABLET -----------------------*/
+
+@media (min-width: 426px) {
+    .formulario3 {
+        width: 59vw;
+        height: 30vh;
+    }
+
+    .botoncontacto {
+        width: 25vw;
+    }
+}
+
+
+/*----------------------- VISTA DESKTOP -----------------------*/
+
+@media (min-width: 769px) {
+    .formulario1 {
+        width: 30vw;
+    }
+
+    .formulario3 {
+        width: 45vw;
+        height: 18vh;
+    }
+
+    .botoncontacto {
+        width: 16vw;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+}

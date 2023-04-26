@@ -1,0 +1,42 @@
+/* NAV */
+
+nav {
+    background-color: #000000
+}
+
+a {
+text-decoration: none;
+}
+
+/*--Header--*/
+
+.header {
+    display: block;
+}
+
+/*--navbar--*/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.navbarprincipal {
+    font-size: 24px;
+    color: #34b17d;
+}
+
+/*-nav-ul-*/
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    margin: 0;
+    padding: 0; 
+}

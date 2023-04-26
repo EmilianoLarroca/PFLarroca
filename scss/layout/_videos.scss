@@ -1,0 +1,44 @@
+/*----------------------- VISTA MOBILE -----------------------*/
+
+.video {
+    width: 315px;
+}
+
+.h2-link-videos {
+    @include flex(column,center,center);
+    color:#3ad375cc
+}
+
+.h1-video {
+    @include flex(column,center,center);
+    font-size: 22px;
+    color:#3ad375cc
+}
+/*----------------------- VISTA TABLET -----------------------*/
+
+@media (min-width: 426px) {
+    .video {
+        width: 400px;
+    }
+
+    .h1-video {
+        @include flex(column,center,center);
+        font-size: 26px;
+        color:#3ad375cc
+    }
+}   
+/*----------------------- VISTA DESKTOP -----------------------*/
+
+@media (min-width: 769px) {
+        .video {
+            width: 570px;
+            margin-bottom: 10px;
+        }   
+
+        .h1-video {
+            @include flex(column,center,center);
+            font-size: 35px;
+            margin-bottom: 15px;
+            color:#3ad375cc
+        }
+    }

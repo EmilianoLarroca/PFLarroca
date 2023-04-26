@@ -1,0 +1,119 @@
+/*----------------------- VISTA MOBILE -----------------------*/
+
+/* -MAIN- */
+
+main {
+    margin-top: 60px;
+    background-color: $colorbody
+}
+
+.section {
+    @include flex(column,space-between,center);
+}
+
+/*img principal*/
+    .imgclass {
+    width: 90vw;
+    height: 20vh;
+    margin: 3vw;
+    }
+
+    .imgclass2 {
+    width: 90vw;
+    height: 40vh;
+    }
+    
+    .imgclass3 {
+    width: 90vw;
+    height: 29vh;
+    }
+    
+    .pdelindex {
+        text-align: justify;
+        width: 80vw;
+        color: white;
+    }
+
+    .pdelindex1 {
+        font-size: 16px;
+        text-align: justify;
+        width: 80vw;
+        color: rgb(255, 255, 255);
+        padding-top: 20px;
+    }
+
+    .h2-link {
+        color:#3ad375cc
+    }
+
+    li {
+        list-style: none;
+    }
+
+/*----------------------- VISTA TABLET -----------------------*/
+
+@media (min-width: 426px) {
+    .imgclass {
+        width: 90vw;
+        height: 30vh;
+        margin: 3vw;
+        }
+
+    .imgclass3 {
+        width: 90vw;
+        height: 35vh;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: justify;
+        width: 90vw;
+        color: white;
+    }
+
+    .pdelindex1 {
+        font-size: 20px;
+        text-align: justify;
+        width: 80vw;
+        color: rgb(255, 255, 255);
+        padding-top: 20px;
+    }
+}
+/*----------------------- VISTA DESKTOP -----------------------*/
+
+@media (min-width: 769px) {
+
+    .imgclass {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .imgclass3 {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .pdelindex {
+        font-size: 23px;
+        color: rgb(255, 255, 255);
+    }
+
+    .pdelindex1 {
+        font-size: 23px;
+        color: rgb(255, 255, 255);
+        padding-top: 20px;
+    }
+
+/*----------------------- VISTA DESKTOP (MAYOR TAMAÑO) -----------------------*/
+    @media (min-width: 1024px) {
+        .imgclass {
+            width: 60vw;
+            height: 50vh;
+        }
+    
+        .imgclass3 {
+            width: 60vw;
+            height: 50vh;
+        }
+    }
+}
