@@ -69,6 +69,16 @@ footer div p {
   font-size: 16px;
 }
 
+.footer-link {
+  font-size: 16px;
+  color: #34b17d;
+}
+
+.pdelfooter {
+  font-size: 16px;
+  color: #34b17d;
+}
+
 /*----------------------- VISTA DESKTOP -----------------------*/
 @media (min-width: 769px) {
   .footer-link {
@@ -99,6 +109,8 @@ main {
   width: 90vw;
   height: 20vh;
   margin: 3vw;
+  border-radius: 5%;
+  box-shadow: 5px 20px 20px #000000;
 }
 
 .imgclass2 {
@@ -109,6 +121,8 @@ main {
 .imgclass3 {
   width: 90vw;
   height: 29vh;
+  border-radius: 5%;
+  box-shadow: 5px 20px 20px #000000;
 }
 
 .pdelindex {
@@ -139,10 +153,14 @@ li {
     width: 90vw;
     height: 30vh;
     margin: 3vw;
+    border-radius: 5%;
+    box-shadow: 10px 20px 20px #000000;
   }
   .imgclass3 {
     width: 90vw;
     height: 35vh;
+    border-radius: 5%;
+    box-shadow: 10px 20px 20px #000000;
   }
   p {
     font-size: 20px;
@@ -163,10 +181,14 @@ li {
   .imgclass {
     width: 80vw;
     height: 40vh;
+    border-radius: 5%;
+    box-shadow: 20px 20px 20px #000000;
   }
   .imgclass3 {
     width: 80vw;
     height: 40vh;
+    border-radius: 5%;
+    box-shadow: 20px 20px 20px #000000;
   }
   .pdelindex {
     font-size: 23px;
@@ -177,16 +199,46 @@ li {
     color: rgb(255, 255, 255);
     padding-top: 20px;
   }
+  .h2-link {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+  }
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   /*----------------------- VISTA DESKTOP (MAYOR TAMAÑO) -----------------------*/
 }
 @media (min-width: 769px) and (min-width: 1024px) {
   .imgclass {
     width: 60vw;
     height: 50vh;
+    border-radius: 5%;
+    box-shadow: 20px 20px 20px #000000;
+  }
+  .h2-link {
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+  }
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   .imgclass3 {
     width: 60vw;
     height: 50vh;
+    border-radius: 5%;
+    box-shadow: 20px 20px 20px #000000;
   }
 }
 /*----------------------- VISTA MOBILE -----------------------*/
@@ -413,7 +465,7 @@ li {
 @media (min-width: 769px) {
   .video {
     width: 570px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .h1-video {
     display: flex;
@@ -474,6 +526,12 @@ li {
     width: 16vw;
     margin-top: 15px;
     margin-bottom: 20px;
+  }
+}
+/*----------------------- VISTA DESKTOP (MAYOR TAMAÑO) -----------------------*/
+@media (min-width: 1024px) {
+  .formulariodos .botoncontacto {
+    width: 10vw;
   }
 }
 

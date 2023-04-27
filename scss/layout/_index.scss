@@ -16,6 +16,8 @@ main {
     width: 90vw;
     height: 20vh;
     margin: 3vw;
+    border-radius: 5%;
+    box-shadow: 5px 20px 20px #000000;
     }
 
     .imgclass2 {
@@ -26,6 +28,8 @@ main {
     .imgclass3 {
     width: 90vw;
     height: 29vh;
+    border-radius: 5%;
+    box-shadow: 5px 20px 20px #000000;
     }
     
     .pdelindex {
@@ -57,11 +61,15 @@ main {
         width: 90vw;
         height: 30vh;
         margin: 3vw;
+        border-radius: 5%;
+        box-shadow: 10px 20px 20px #000000;
         }
 
     .imgclass3 {
         width: 90vw;
         height: 35vh;
+        border-radius: 5%;
+        box-shadow: 10px 20px 20px #000000;
     }
 
     p {
@@ -86,11 +94,15 @@ main {
     .imgclass {
         width: 80vw;
         height: 40vh;
+        border-radius: 5%;
+        box-shadow: 20px 20px 20px #000000;
     }
 
     .imgclass3 {
         width: 80vw;
         height: 40vh;
+        border-radius: 5%;
+        box-shadow: 20px 20px 20px #000000;
     }
 
     .pdelindex {
@@ -104,16 +116,50 @@ main {
         padding-top: 20px;
     }
 
+    .h2-link {
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: initial;
+    }
+
+    @keyframes aparecer {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
 /*----------------------- VISTA DESKTOP (MAYOR TAMAÑO) -----------------------*/
     @media (min-width: 1024px) {
         .imgclass {
             width: 60vw;
             height: 50vh;
+            border-radius: 5%;
+            box-shadow: 20px 20px 20px #000000;
         }
-    
+
+        .h2-link {
+            animation-duration: 4s;
+            animation-name: aparecer;
+            animation-iteration-count: initial;
+        }
+
+        @keyframes aparecer {
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+
         .imgclass3 {
             width: 60vw;
             height: 50vh;
+            border-radius: 5%;
+            box-shadow: 20px 20px 20px #000000;
         }
     }
 }

@@ -58,3 +58,10 @@
         margin-bottom: 20px;
     }
 }
+
+/*----------------------- VISTA DESKTOP (MAYOR TAMAÑO) -----------------------*/
+@media (min-width: 1024px) {
+    .formulariodos .botoncontacto {
+        width: 10vw;
+    }
+}

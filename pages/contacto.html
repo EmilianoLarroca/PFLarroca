@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Etiquetas SEO-->
-        <meta name="title" content="Grand Theft Auto V">
-        <meta name="description" content="Contactanos enviando un mensaje y llenando tus datos, y el equipo de soporte se comunicara a la brevedad">
+    <!--Etiquetas SEO-->
+    <meta name="description" content="Contactanos enviando un mensaje y llenando tus datos, y el equipo de soporte se comunicara a la brevedad">
+    <meta name="keywords" content="contanctanos, enviar, consulta, email, nombre completo,">
+    <!--Etiquetas AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Link de la barra-->
     <link rel="shortcut icon" href="../multimedia/imalogo.jpg" type="image/x-icon">
     <!--Link a Bootstrap-->
@@ -64,9 +66,7 @@
     <main>
         <section class="section">
             <h1 class="h2-link">Contactanos</h1>
-
             <!---FORMULARIO DE CONSULTA--->
-
             <div class="formulariodos">
                 <label class="formulario" for="nombre">Nombre y Apellido</label>
                 <input class="formulario1" type="text" name="nombre" placeholder="Ingrese su nombre">
@@ -90,21 +90,25 @@
     </main>
 
     <!---FOOTER--->
-
     <footer class="footer-principal">
         <section>
             <a href="https://www.instagram.com/" class="footer-link">Instagram</a>
             <a href="https://es-la.facebook.com/" class="footer-link">Facebook</a>
             <a href="https://twitter.com/" class="footer-link">Twitter</a>
             <a href="https://www.rockstargames.com" class="footer-link">→ Pagina Oficial Rockstar Games ←</a>
-            <p class="pdelfooter">© Rockstar Games 2023</p>
         </section>
+        <div>
+            <p class="pdelfooter">© Rockstar Games 2023</p>
+        </div>
     </footer>
-
     <!--Script Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+    <!--Etiquetas AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
-
 </html>
