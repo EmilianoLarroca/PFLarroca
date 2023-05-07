@@ -1,9 +1,5 @@
 /* NAV */
 
-nav {
-    background-color: #000000
-}
-
 a {
 text-decoration: none;
 }
@@ -14,29 +10,27 @@ text-decoration: none;
     display: block;
 }
 
-/*--navbar--*/
+.nav-link {
+    font-size: 22px;
+    color: #34b17d;
+    &:hover {
+        color: #00ff95;
+    }
+}
+
+.nav-color {
+    background-color: #191919;
+    padding: 10px;
+}
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    height: 60px;
+    padding: 0px;
 }
 
-.navbarprincipal {
-    font-size: 24px;
+.navbar-brand {
+    font-size: 26px;
     color: #34b17d;
-}
-
-/*-nav-ul-*/
-
-.nav-ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    color: white;
-    margin: 0;
-    padding: 0; 
+    &:hover {
+        color: #00ff95;
+    }
 }
