@@ -57,6 +57,10 @@ main {
         list-style: none;
     }
 
+    .icons {
+        padding: 5px;
+    }
+
 /*----------------------- VISTA TABLET -----------------------*/
 
 @media (min-width: 426px) {
@@ -88,6 +92,10 @@ main {
         width: 80vw;
         color: rgb(255, 255, 255);
         padding-top: 20px;
+    }
+
+    .icons {
+        padding: 10px;
     }
 }
 /*----------------------- VISTA DESKTOP -----------------------*/
@@ -134,6 +142,10 @@ main {
         }
     }
 
+    .icons {
+        padding: 10px;
+    }
+
 /*----------------------- VISTA DESKTOP (MAYOR TAMAÑO) -----------------------*/
     @media (min-width: 1024px) {
         .imgclass {
@@ -164,5 +176,9 @@ main {
             border-radius: 5%;
             box-shadow: 20px 20px 20px #000000;
         }
+    }
+
+    .icons {
+        padding: 10px;
     }
 }
