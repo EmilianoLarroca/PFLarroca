@@ -1,6 +1,10 @@
 /*----------------------- VISTA MOBILE -----------------------*/
 
-.formulariodos {
+.section1 {
+    height: 761px;
+    @include flex(column,space-between,center);
+    }
+    .formulariodos {
     display: flex;
     flex-direction: column;
 
@@ -12,7 +16,7 @@
     
     .formulario {
         @include flex(column,center,center);
-        font-size: 20px;
+        font-size: 28px;
         color: white;
         
         .formulario1 {
@@ -37,6 +41,12 @@
     .botoncontacto {
         width: 25vw;
     }
+
+    .section1 {
+        height: 761px;
+        @include flex(column,space-between,center);
+        
+    }
 }
 
 
@@ -45,17 +55,24 @@
 @media (min-width: 769px) {
     .formulario1 {
         width: 30vw;
+        height: 5vh;
     }
 
     .formulario3 {
         width: 45vw;
-        height: 18vh;
+        height: 35vh;
     }
 
     .botoncontacto {
         width: 16vw;
         margin-top: 15px;
         margin-bottom: 20px;
+    }
+
+    .section1 {
+        height: 731px;
+        @include flex(column,space-between,center);
+        
     }
 }
 
@@ -65,4 +82,9 @@
         width: 10vw;
 }
 
+.section1 {
+    height: 774px;
+    @include flex(column,space-between,center);
+    
+}
 }

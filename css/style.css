@@ -491,6 +491,14 @@ li {
   }
 }
 /*----------------------- VISTA MOBILE -----------------------*/
+.section1 {
+  height: 761px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .formulariodos {
   display: flex;
   flex-direction: column;
@@ -505,7 +513,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 28px;
   color: white;
 }
 .formulariodos .formulario .formulario1 {
@@ -525,26 +533,48 @@ li {
   .botoncontacto {
     width: 25vw;
   }
+  .section1 {
+    height: 761px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 /*----------------------- VISTA DESKTOP -----------------------*/
 @media (min-width: 769px) {
   .formulario1 {
     width: 30vw;
+    height: 5vh;
   }
   .formulario3 {
     width: 45vw;
-    height: 18vh;
+    height: 35vh;
   }
   .botoncontacto {
     width: 16vw;
     margin-top: 15px;
     margin-bottom: 20px;
   }
+  .section1 {
+    height: 731px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 /*----------------------- VISTA DESKTOP (MAYOR TAMAÑO) -----------------------*/
 @media (min-width: 1024px) {
   .formulariodos .botoncontacto {
     width: 10vw;
+  }
+  .section1 {
+    height: 774px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
