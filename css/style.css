@@ -24,7 +24,7 @@ a {
 }
 
 .nav-color {
-  background-color: #191919;
+  background-image: linear-gradient(305deg, #31668b 0, #233647 50%, #080808 100%);
   padding: 10px;
 }
 
@@ -89,7 +89,7 @@ footer div p {
 /*----------------------- VISTA MOBILE -----------------------*/
 /* -MAIN- */
 main {
-  background-image: linear-gradient(to bottom, #191919, rgba(42, 51, 59, 0.8));
+  background-image: radial-gradient(circle at 37.86% 118.86%, #1f5b95 0, #092a4a 50%, #000005 100%);
 }
 
 .section {
@@ -135,7 +135,7 @@ main {
 }
 
 .h2-link {
-  color: rgba(58, 211, 117, 0.8);
+  color: rgba(75, 255, 0, 0.8);
 }
 
 h1 {
@@ -321,6 +321,7 @@ li {
     flex-direction: column;
     align-self: stretch;
     align-items: center;
+    width: 100%;
   }
   .pregunta-2 {
     width: 50vw;
@@ -372,6 +373,9 @@ li {
   }
   .botondeconsulta {
     margin-top: 15px;
+  }
+  .main-info {
+    overflow: hidden;
   }
 }
 /*----------------------- VISTA MOBILE -----------------------*/

@@ -91,6 +91,7 @@
         flex-direction: column;
         align-self: stretch;
         align-items: center;
+        width: 100%;
     }
 
     .pregunta-2 {
@@ -139,4 +140,8 @@
     .botondeconsulta {
         margin-top: 15px;
     }
+
+    .main-info {
+        overflow: hidden;
+}
 }

@@ -3,8 +3,7 @@
 /* -MAIN- */
 
 main {
-    background-image: linear-gradient(to bottom,#191919, rgba(42, 51, 59, 0.8));
-}
+    background-image: radial-gradient(circle at 37.86% 118.86%, #1f5b95 0, #092a4a 50%, #000005 100%);}
 
 .section {
     @include flex(column,space-between,center);
@@ -47,7 +46,7 @@ main {
     }
 
     .h2-link {
-        color:#3ad375cc
+        color: rgb(75 255 0 / 80%)
     }
 
     h1 {
