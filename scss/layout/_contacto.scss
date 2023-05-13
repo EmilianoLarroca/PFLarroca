@@ -26,6 +26,7 @@
         .formulario3 {
             width: 59vw;
             height: 55vh;
+            resize: none;
         }
     }
 }
@@ -36,6 +37,7 @@
     .formulario3 {
         width: 59vw;
         height: 30vh;
+        resize: none;
     }
 
     .botoncontacto {
@@ -61,12 +63,14 @@
     .formulario3 {
         width: 45vw;
         height: 35vh;
+
     }
 
     .botoncontacto {
         width: 16vw;
         margin-top: 15px;
         margin-bottom: 20px;
+        resize: none;
     }
 
     .section1 {
