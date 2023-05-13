@@ -5,7 +5,7 @@
     display: flex;
     justify-content: start;
     font-size: 16px;
-    color: #3ad375cc;
+    color: #dbd033;
     margin-top: 10px;
 }
 
@@ -14,11 +14,16 @@
     width: 100vw;
     color: white;
     padding: 10px;
+    font-family: 'EB Garamond', serif;
 }
 
 .botondeconsulta {
     width: 65vw;
     margin-top: -15px;
+}
+
+.main-info {
+    overflow: hidden;
 }
 
 /*----------------------- VISTA TABLET -----------------------*/
@@ -28,15 +33,20 @@
         display: flex;
         justify-content: center;
         font-size: 23px;
-        color: #3ad375cc;
+        color: #dbd033;
         margin-top: 10px;
 
         .pdelmaininfo {
             text-align: justify;
             width: 80vw;
             color: white;
+            font-family: 'EB Garamond', serif;
         }
     }
+
+    .main-info {
+        overflow: hidden;
+}
 }
 
 /*----------------------- VISTA DESKTOP -----------------------*/
@@ -48,7 +58,7 @@
         display: flex;
         justify-content: center;
         font-size: 26px;
-        color: #3ad375cc;
+        color: #dbd033;
         margin-top: 15px;
     }
 
@@ -56,6 +66,7 @@
         font-size: 24px;
         color: white;
         padding: 5px;
+        font-family: 'EB Garamond', serif;
     }
 
     .botondeconsulta {
@@ -68,7 +79,7 @@
         width: 100vw;
         display: grid;
         grid-template-columns: 50vw 50vw;
-        grid-template-rows: 40px 40px 200px repeat(2, 320px);
+        grid-template-rows: 40px 40px 200px repeat(2, 400px);
         overflow: unset;
     }
 
@@ -150,10 +161,17 @@
     .h2informacion {
         display: flex;
         justify-content: center;
-        font-size: 33px;
-        color: #3ad375cc;
+        font-size: 30px;
+        color: #dbd033;
         margin-top: 15px;
+        padding: 10px;
     }
 
+    .pdelmaininfo {
+        font-size: 24px;
+        color: white;
+        padding: 20px;
+        font-family: 'EB Garamond', serif;
+    }
 }
 }

@@ -61,6 +61,14 @@ main {
         padding: 5px;
     }
 
+.h2-link-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: rgb(75 255 0 / 80%)
+}
+
 /*----------------------- VISTA TABLET -----------------------*/
 
 @media (min-width: 426px) {
@@ -98,6 +106,7 @@ main {
         padding: 10px;
     }
 }
+
 /*----------------------- VISTA DESKTOP -----------------------*/
 
 @media (min-width: 769px) {
@@ -133,6 +142,17 @@ main {
         animation-iteration-count: initial;
     }
 
+    .h2-link-2 {
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        color: rgb(75 255 0 / 80%)
+    }
+
     @keyframes aparecer {
         0%{
             opacity: 0;
@@ -145,6 +165,7 @@ main {
     .icons {
         padding: 10px;
     }
+
 
 /*----------------------- VISTA DESKTOP (MAYOR TAMAÑO) -----------------------*/
     @media (min-width: 1024px) {

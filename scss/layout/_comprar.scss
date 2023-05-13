@@ -1,21 +1,26 @@
 /*----------------------- VISTA MOBILE -----------------------*/
     .h2comprar {
         @include flex(column,center,center);
-        width: 80vw;
-        color:#3ad375cc
+        width: 100vw;
+        color: #dbd033;
     }
     .pdecomprar {
         text-align: justify;
         width: 90vw;
         color: white;
+        font-family: 'EB Garamond', serif;
     }
     .buttomcomprar {
         width: 45vw;
-        color: black;
+        color: rgba(250, 242, 242, 0.911);
         font-size: 14px;
         border-radius: 20px;
-        background-color: rgb(182, 170, 69);
+        background-color: #dc354582;
         margin-bottom: 15px;
+}
+
+.main-comprar {
+    overflow: hidden;
 }
 
 /*----------------------- VISTA TABLET -----------------------*/
@@ -23,10 +28,10 @@
 @media (min-width: 426px) {
     .buttomcomprar {
         width: 35vw;
-        color: black;
+        color: rgba(250, 242, 242, 0.911);
         font-size: 20px;
         border-radius: 20px;
-        background-color: rgb(182, 170, 69);
+        background-color: #dc354582;
         margin-bottom: 20px;
     }
 }
@@ -37,10 +42,10 @@
     .buttomcomprar {
         width: 23vw;
         height: 10vh;
-        color: rgb(0, 0, 0);
+        color: rgba(250, 242, 242, 0.911);
         font-size: 20px;
         border-radius: 20px;
-        background-color: rgb(182, 170, 69);
+        background-color: #dc354582;
         margin-bottom: 25px;
     }
 
@@ -51,16 +56,17 @@
     .pdecomprar {
         font-size: 30px;
         margin-top: 15px;
+        font-family: 'EB Garamond', serif;
     }
 
 @media (min-width: 1000px) {
     .buttomcomprar {
         width: 23vw;
         height: 7vh;
-        color: rgb(0, 0, 0);
+        color: rgba(250, 242, 242, 0.911);
         font-size: 20px;
         border-radius: 20px;
-        background-color: rgb(182, 170, 69);
+        background-color: #dc354582;
         margin-bottom: 25px;
     }
 }
